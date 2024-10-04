@@ -1,0 +1,24 @@
+---
+title: Infrastructure Team 4 - Documentation
+template: splash
+hero:
+  tagline: The home of Infrastructure Team 4 internal processes and documentation.
+  actions:
+    - text: Introduction
+      link: /intro/
+      icon: right-arrow
+      variant: primary
+---
+
+import { LinkCard, CardGrid } from '@astrojs/starlight/components';
+
+<CardGrid>
+	<LinkCard title="Introduction" 
+		description="Introduction to IT-4 team"		
+		href="/intro/"
+	/>
+	<LinkCard title="Documentation" 
+		description="Internal docs for streamlined collaboration"		
+		href="/documentation/"
+	/>
+</CardGrid>
