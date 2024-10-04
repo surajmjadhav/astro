@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: "Looking for support?"
+    url: "https://servicedesk.civica.com"
+    about: "Issues are reserved for reporting problems with documentation and suggesting improvements. For support regarding a Civica IT system, please raise a service desk case."

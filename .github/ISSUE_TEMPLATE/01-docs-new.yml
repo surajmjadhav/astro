@@ -1,0 +1,40 @@
+name: 📄 New Article
+description: Create a new documentation page
+labels:
+  - "type: docs"
+body:
+  - type: input
+    id: title
+    attributes:
+      label: Title
+      description: Provide a title for the new page
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Describe the content of the new page
+      placeholder: |
+        - What information will it contain?
+        - What is the purpose of this article?
+        - Who is the intended audience?
+        - What is the expected outcome for the reader?
+    validations:
+      required: true
+
+  - type: textarea
+    id: justification
+    attributes:
+      label: Justification
+      description: |
+        Why is this article required?
+      placeholder: |
+        - What problem does it solve?
+        - Who will benefit from it?
+        - How does it fit into the existing documentation?
+        - What is the impact of not having this information or process?
+        - What is the urgency of this new information or process?
+    validations:
+      required: true

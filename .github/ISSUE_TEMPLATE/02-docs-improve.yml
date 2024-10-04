@@ -1,0 +1,40 @@
+name: ✏️ Improve Article
+description: Suggest improvements to an existing documentation page
+labels:
+  - "type: docs"
+body:
+  - type: input
+    id: article
+    attributes:
+      label: Page
+      description: Provide a link to the page to be updated
+    validations:
+      required: true
+
+  - type: textarea
+    id: changes
+    attributes:
+      label: Changes
+      description: |
+        Describe the changes to the page
+      placeholder: |
+        - What is the problem with the current information or process?
+        - Which sections need to be updated?
+        - What new information needs to be changed and to what?
+    validations:
+      required: true
+
+  - type: textarea
+    id: justification
+    attributes:
+      label: Justification
+      description: |
+        Why is this change required?
+      placeholder: |
+        - What problem does it solve?
+        - Who will benefit from it?
+        - How does it fit into the existing documentation?
+        - What is the impact of this not being updated?
+        - What is the urgency of this change?
+    validations:
+      required: true
