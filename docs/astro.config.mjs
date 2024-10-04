@@ -4,17 +4,17 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
 	integrations: [
 		starlight({
-			title: 'Infrastructure Team 4 - Documentation',
+			title: 'My Doc',
 			customCss: [ './src/styles/civica.css' ],
 			logo: {
 				light: './src/assets/logo/civica-light.png',
 				dark: './src/assets/logo/civica-dark.png',
 			},
 			social: {
-				github: 'https://github.com/Civica/Infrastructure-Team-4',
+				github: 'https://github.com/surajmjadhav/astro',
 			},
 			editLink: {
-				baseUrl: 'https://github.com/Civica/Infrastructure-Team-4/tree/main/docs',
+				baseUrl: 'https://github.com/surajmjadhav/astro.git/tree/main/docs',
 			},
 			pagination: false,
 			sidebar: [
