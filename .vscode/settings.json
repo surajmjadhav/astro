@@ -1,0 +1,25 @@
+{
+	"editor.tabSize": 2,
+	"editor.insertSpaces": true,
+	"editor.detectIndentation": true,
+	"explorer.compactFolders": false,
+	"files.associations": {
+		"*.mdx": "markdown"
+	},
+	"cSpell.enabled": true,
+	"cSpell.language": "en-GB",
+	"cSpell.customDictionaries": {
+		"custom-dictionary-workspace": {
+			"name": "Dictionary",
+			"path": "${workspaceFolder}/.cspell/dictionary.txt",
+			"addWords": true,
+			"scope": "workspace"
+		}
+	},
+	"git.autofetch": true,
+	"git.confirmSync": false,
+	"git.enableSmartCommit": true,
+	"git.branchProtection": [
+		"main"
+	],
+}

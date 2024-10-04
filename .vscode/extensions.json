@@ -1,0 +1,7 @@
+{
+  "recommendations": [
+    "astro-build.astro-vscode",
+    "github.vscode-pull-request-github",
+    "streetsidesoftware.code-spell-checker",
+  ]
+}
