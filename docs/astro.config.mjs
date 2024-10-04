@@ -4,7 +4,7 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
 	integrations: [
 		starlight({
-			title: 'My Doc',
+			title: 'Infrastructure Team 4 - Documentation',
 			customCss: [ './src/styles/civica.css' ],
 			logo: {
 				light: './src/assets/logo/civica-light.png',
