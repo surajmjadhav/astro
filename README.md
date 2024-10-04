@@ -1,2 +1,2 @@
-# My doc - Documentation
+# My doc 
 
